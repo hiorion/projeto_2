@@ -1,4 +1,77 @@
- 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+body {
+    background-color: #25D366;
+    padding-top: 100px; 
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    }
+header h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 80px;
+        
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between; 
+    margin-bottom: 56px;
+    align-items: center;
+}
+form input {
+    font-size: 16px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 4px solid green;
+    padding: 8px;
+
+}
+
+form button {
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
  table img {
     width: 16px;
+    margin-right: 8px;
+    margin-top: 12px;
  }
+
+ table {
+    width: 100%;
+ }
+ table th{ 
+      border-bottom: 2px solid green;
+      padding: 16px;
+      font-size: 32px;
+      font-weight: bold;
+       
+ }
+table td {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+
+}
